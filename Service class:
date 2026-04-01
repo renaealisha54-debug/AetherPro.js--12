@@ -1,0 +1,5 @@
+const deployToAether = async () => {
+  if (!code || code.length < 5) return Alert.alert("Empty", "Write code first");
+  await AsyncStorage.setItem('@aether_vault', JSON.stringify([{id:'1', name:'index.js', content:code}]));
+  Alert.alert("Success", "Deployed to Aether Engine");
+};
