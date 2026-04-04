@@ -1,0 +1,1 @@
+{"name":"aether-engine","version":"1.0.0","main":"node_modules/expo/AppEntry.js","dependencies":{"expo":"~52.0.0","react":"18.2.0","react-native":"0.73.0","react-native-webview":"^13.10.0","expo-file-system":"~17.0.0","expo-sharing":"~12.0.0","axios":"^1.7.0"},"devDependencies":{"expo-cli":"^0.0.0"},"scripts":{"start":"expo start"}}
